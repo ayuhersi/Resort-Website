@@ -1,1 +1,44 @@
-/* No CSS *//*# sourceMappingURL=css.css.map */
+body {
+  background-color: green;
+}
+
+header {
+  padding: 20px 0 70px 0;
+  background: #2d6360 50% 0 url(huntington.jpg) no-repeat;
+  background-size: auto, auto, auto, cover;
+  text-align: center;
+}
+
+.summary {
+  background-color: white;
+}
+
+.preamble {
+  background-color: red;
+}
+
+.explanation {
+  background-color: purple;
+}
+
+.participation {
+  background-color: gray;
+}
+
+.benefits {
+  background-color: black;
+  color: white;
+}
+
+.requirements {
+  background-color: orange;
+}
+
+footer {
+  background-color: pink;
+}
+
+.wrapper {
+  background-color: red;
+}
+/*# sourceMappingURL=css.css.map */
