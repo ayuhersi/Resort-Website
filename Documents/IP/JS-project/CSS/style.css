@@ -1,0 +1,41 @@
+body {
+    background-color: lightsalmon;
+    font-family: "Comfortaa", "Oxygen";
+  }
+  header {
+
+  
+    background-size: auto, auto, auto, cover;
+    text-align: center;
+  }
+  
+  .Top{
+    background-color: lightgreen;
+    border-radius: 40px;
+    text-align: center;
+    
+  }
+  .Male{
+    background-color: lightblue;
+    border-radius: 40px;
+   text-align: center;
+  }
+  .Female{
+    background-color: pink;
+    border-radius: 40px;
+    text-align: center;
+  }
+
+  .Calculator{
+    background-color: salmon;
+    border-radius: 40px;
+    text-align: center;
+  }
+  
+
+  
+    
+  
+  
+  
+ 
