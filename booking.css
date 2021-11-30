@@ -34,7 +34,8 @@ form .user-details .input-box{
     width: calc(100% / 2 - 20px);
 }
 .user-details .input-box input{
-    height: 45px;
+    height: 50px;
+    width: 90%;
 }
 
 
