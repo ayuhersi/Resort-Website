@@ -32,10 +32,14 @@ border-radius: 5px;
 }
 form .user-details .input-box{
     width: calc(100% / 2 - 20px);
+    margin: 20px 0 12px 0;
 }
 .user-details .input-box input{
     height: 50px;
     width: 90%;
+}
+.user-details .input-box .details{
+    font-weight: 500;
 }
 
 
