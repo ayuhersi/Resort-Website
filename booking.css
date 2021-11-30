@@ -29,20 +29,28 @@ border-radius: 5px;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+    margin: 20px 0 12px 0;
 }
 form .user-details .input-box{
     width: calc(100% / 2 - 20px);
-    margin: 20px 0 12px 0;
+    margin-bottom: 15px;
 }
 .user-details .input-box input{
     height: 50px;
     width: 90%;
     border-radius: 5px;
+    font-size: 17px;
+    border-bottom-width: 2px;
+    transition: all 0.3s ease;
 }
 .user-details .input-box .details{
     display: block;
     font-weight: 500;
     margin-bottom: 5px;
+}
+form .room-details .room-title{
+    font-size: 25px;
+    font-weight: 600;
 }
 
 
