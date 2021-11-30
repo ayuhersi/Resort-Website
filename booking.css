@@ -14,6 +14,9 @@ body{
 
 }
 .container{
-max
+max-width: 700px;
+width: 100px;
+background: white;
+padding: 35px 30px;
 }
     
