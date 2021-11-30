@@ -16,35 +16,61 @@
     <title>Resort Bookings</title>
 </head>
 <body>
-    <section id="wrap">
-        <h1 class="title">Resort Booking Form</h1>
-        <form>
-                <div class="row">
-                    <div class="col-md-5">
-                        <input type="text" name="First Name" id="first name" placeholder="First Name">
-                        <input type="text" name="Last Name" id="Last Name" placeholder="Last Name">
-                        <input type="text" name="number" id="number" placeholder="Phone Number">
-                        <input type="email" name="email" id="email" placeholder="Email Address">
-                        <input type="text" name="day" id="day" placeholder="No.of Days">
-                        <input type="text" name="guest" id="guest" placeholder="No.of Guests">
-                    </div>
-                        <div class="type">
-                            <label for="room">Room Type</label>
-                            <select name="room" id="room">
-                                <option value="RoomType">Room Type</option>
-                                <option value="singleRoom">Single Room</option>
-                                <option value="doubleRoom">Double Room</option>
-                                <option value="masterRoom">Master Room</option>
-                                <option value="royalSuite">Royal Suite</opion>
-                            </select>
-                            <div class="btn">
-                                <button>Book Now</button>
-                            </div>
-                            
-                        </div>
-                </div>                
+    <div class="container">
+        <div class="title">Resort Bookings</div>
+        <form action="#">
+            <div class="user-details">
+                <div class="input-box">
+                    <span class="details">Full Name</span>
+                    <input type="text" placeholder="Enter your FIrst Name" required>
+                </div>
+                <div class="input-box">
+                    <span class="details">Last Name</span>
+                    <input type="text" placeholder="Enter your Last Name" required>
+                </div>
+                <div class="input-box">
+                    <span class="details">Phone Number</span>
+                    <input type="text" placeholder="Enter your Phone Number" required>
+                </div>
+                <div class="input-box">
+                    <span class="details">Email Address</span>
+                    <input type="text" placeholder="Enter your Email Address" required>
+                </div>
+                <div class="input-box">
+                    <span class="details">Number of Days</span>
+                    <input type="text" placeholder="Enter Number of Days" required>
+                </div>
+                <div class="input-box">
+                    <span class="details">Number of Guests</span>
+                    <input type="text" placeholder="Enter Number of Guests" required>
+                </div>
+            </div>
+            <div class="room-details">
+                <span class="room-title">Room Type</span>
+                <div class="category">
+                    <label for="">
+                        <span class="dot one"></span>
+                        <span class="room">Single Room</span>
+                    </label>
+                    <label for="">
+                        <span class="dot one"></span>
+                        <span class="room">Double Room</span>
+                    </label>
+                    <label for="">
+                        <span class="dot one"></span>
+                        <span class="room">Master Room</span>
+                    </label>
+                    <label for="">
+                        <span class="dot one"></span>
+                        <span class="room">Royal Suite </span>
+                    </label>
+                </div>
+            </div>
+            <div class="button">
+                <input type="submit" value="Book Now">
+            </div>
         </form>
-    </section>
+    </div>
     <script
     src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
