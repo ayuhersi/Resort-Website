@@ -37,9 +37,12 @@ form .user-details .input-box{
 .user-details .input-box input{
     height: 50px;
     width: 90%;
+    border-radius: 5px;
 }
 .user-details .input-box .details{
+    display: block;
     font-weight: 500;
+    margin-bottom: 5px;
 }
 
 
