@@ -71,18 +71,27 @@ form .room-details .category{
     border: 5px solid transparent;
 
 }
-#dot-1:checked ~ .category label .one,
+/* #dot-1:checked ~ .category label .one,
 #dot-2:checked ~ .category label .two,
-#dot-3:checked ~ .category label .three,
-#dot-4:checked ~ .category label .four{
+#dot-3:checked ~ .category label .three{
     border-color: #d9d9d9;
     background: blue;
-}
-form input[type="radio"]{
+} */
+/* form input[type="radio"]{
     display: none;
-}
+} */
+
 form .button{
     height: 45px;
     margin: 45px 0;
+}
+form .button input{
+    height: 100%;
+    width: 95%;
+    font-size: 18px;
+    font-weight: 600;
+    border-radius: 5px;
+    letter-spacing: 1px;
+    
 }
     

@@ -38,40 +38,28 @@
                 </div>
                 <div class="input-box">
                     <span class="details">Number of Days</span>
-                    <input type="text" placeholder="Enter Number of Days" required>
+                    <input type="text" id="number" placeholder="Enter Number of Days" required>
                 </div>
                 <div class="input-box">
                     <span class="details">Number of Guests</span>
-                    <input type="text" placeholder="Enter Number of Guests" required>
+                    <input type="text" id="guests" placeholder="Enter Number of Guests" required>
                 </div>
             </div>
             <div class="room-details">
-                <input type="radio" name="room" id="dot-1">
-                <input type="radio" name="room" id="dot-2">
-                <input type="radio" name="room" id="dot-3">
-                <input type="radio" name="room" id="dot-4">
                 <span class="room-title">Room Type</span>
                 <div class="category">
-                    <label for="dot-1">
-                        <span class="dot one"></span>
-                        <span class="room">Single Room</span>
-                    </label>
-                    <label for="dot-2">
-                        <span class="dot two"></span>
-                        <span class="room">Double Room</span>
-                    </label>
-                    <label for="dot-3">
-                        <span class="dot three"></span>
-                        <span class="room">Master Room</span>
-                    </label>
-                    <label for="dot-4">
-                        <span class="dot four"></span>
-                        <span class="room">Royal Suite </span>
-                    </label>
+                    <label for="single">Single Room</label>
+                    <input class="form-check-input" id="single" name="roomType" type="radio" value="single">
+
+                    <label for="double">Double Room</label>
+                    <input class="form-check-input" id="double" name="roomType" type="radio" value="double">
+
+                    <label for="master">Master Room</label>
+                    <input class="form-check-input" id="master" name="roomType" type="radio" value="master">
                 </div>
             </div>
             <div class="button">
-                <input type="submit" value="Book Now">
+                <input type="submit" onclick="bookNow()" value="Book Now">
             </div>
         </form>
     </div>
